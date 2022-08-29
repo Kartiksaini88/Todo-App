@@ -1,0 +1,129 @@
+
+
+.main-div{
+    width: 600px;
+    height: 500px;
+    overflow:scroll;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    align-items: center;
+    margin: auto;
+    background-color: whitesmoke;
+    text-align: center;
+    -webkit-overflow-scrolling: auto;
+    font-size: larger;
+    
+   
+
+}
+::-webkit-scrollbar{
+    display: none;
+  }
+.input-div{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.every-todo-div{
+    display: flex;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    
+}
+.margin-top-div{
+   margin-top: 30px;
+
+}
+.h2{
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+.flex-div{
+    box-shadow: rgba(206, 199, 5, 0.719) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    padding-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 570px;
+    margin: auto;
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-family:monospace;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.done-flex-div{
+    box-shadow: rgba(187, 120, 44, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    padding-left: 10px;
+    height: 40px;
+    width: 570px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    text-align: center;
+    font-family:monospace;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+.button-34{
+    margin: 2px;
+    height: 30px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 0;
+    box-shadow: rgba(159, 206, 5, 0.719) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+}
+
+input{
+    width: 250px;
+    height: 40px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    border: none;
+    margin-top: 50px;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family:monospace;
+    font-size: 15px;
+    user-select: none;
+    -webkit-user-select: none;
+    box-shadow: rgba(187, 120, 44, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+
+}
+
+.button-33 {
+      background-color: #c2fbd7;
+      border-bottom-right-radius: 20px;
+      height: 40px;
+      box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+      color: green;
+      cursor: pointer;
+      /* display: inline-block; */
+      font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 250ms;
+      border: 0;
+      font-size: 14px;
+      user-select: none;
+      -webkit-user-select: none;
+      
+    }
+    
+    .button-33:hover {
+      box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+      transform: scale(1.05) rotate(-1deg);
+    }
+    .button-34:hover {
+      box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+      transform: scale(1.05) rotate(-1deg);
+    }
+
